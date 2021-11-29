@@ -1,0 +1,54 @@
+.container {
+  background-color: antiquewhite;
+}
+
+.navbar {
+  background-color: black;
+  height: 10vh;
+  padding: 0 10%;
+}
+
+.main {
+  height: 90vh;
+  flex: 1;
+  background-color: chocolate;
+  display: flex;
+  padding: 0 10%;
+}
+
+.loopContainer {
+  flex: 1;
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 3fr 1fr;
+}
+
+.current {
+  grid-column-start: span 2;
+}
+
+.dumpZone {
+  grid-column-start: span 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.loopReference {
+  width: 25%;
+  background-color: blanchedalmond;
+}
+
+.tasks {
+  background-color: cadetblue;
+}
+
+.questions {
+  background-color: cornflowerblue;
+}
+
+.inputDump {
+  display: block;
+  width: 100%;
+  flex: 1;
+}
